@@ -1,0 +1,81 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    --body-copy: 15px;
+}
+
+html {
+    font-size: var(--body-copy);
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.6;
+    color: var(--transparent-white);
+    background-color: var(--very-light-gray);
+}
+
+main {
+    margin: 88px 6.4vw;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+h1 {
+    /* temp */
+    margin: 0;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.6rem;
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+}
+
+.card {
+    height: 117.87vw;
+    display: flex;
+    padding: 12.8vw;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    background-color: var(--very-light-gray);
+    padding: 16px 32px;
+    border-radius: 28px;
+    /* font-weight: bold; */
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+    border: 0;
+}
+
+button:active {
+    background-color: transparent;
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray) !important;
+    padding: 14px 32px;
+}
+
+#sedans {
+    background-color: var(--bright-orange);
+}
+#sedans > button {
+    color: var(--bright-orange);
+}
+
+#suvs {
+    background-color: var(--dark-cyan);
+}
+#suvs > button {
+    color: var(--dark-cyan);
+}
+
+#luxury {
+    background-color: var(--very-dark-cyan);
+}
+#luxury > button {
+    color: var(--very-dark-cyan);
+}
