@@ -24,12 +24,20 @@ main {
 }
 
 h1 {
-    /* temp */
     margin: 0;
     font-family: "Big Shoulders Display", cursive;
-    font-size: 2.6rem;
+    font-size: 10.4vw;
     color: var(--very-light-gray);
     text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    font-size: 4vw;
+}
+
+img {
+    width: 17.07vw;
 }
 
 .card {
@@ -52,7 +60,7 @@ button {
     border: 0;
 }
 
-button:active {
+button:hover {
     background-color: transparent;
     border: 2px solid var(--very-light-gray);
     color: var(--very-light-gray) !important;
