@@ -50,15 +50,15 @@ Users should be able to:
 
 ### What I learned
 
-This Frontend Mentor challenge was the simplest one yet, but even in the simplest tasks there is the opportunity to learn. I improved my skills on choosing the correct size units to create a true responsive website, learned how to create beautiful buttons that work consistently accross browsers and got to use the `transparent` keyword as a value.
+This Frontend Mentor challenge was the simplest one yet, but there is the opportunity to learn even in the simplest tasks. I improved my skills in choosing the correct size units to create a truly responsive website, learned how to make beautiful buttons that work consistently across browsers, and used the transparent keyword as a value for the first time.
 
 ### Continued development
 
-I would love to learn how to create enticing animations for buttons, and I am planning on spending some time doing that in a next project.
+I would love to learn how to create enticing animations for buttons, and I plan to spend some time doing that in my next project.
 
 ### Useful resources
 
--   [Overriding Default Button Styles | CSS-Tricks](https://css-tricks.com/overriding-default-button-styles/) - Once again CSS-Tricks came to the rescue. This article had a very interesting discussion about buttons and how to create a consistent design.
+-   [Overriding Default Button Styles | CSS-Tricks](https://css-tricks.com/overriding-default-button-styles/) - Once again, CSS-Tricks came to the rescue. This article had a fascinating discussion about buttons and how to create a consistent design.
 
 ## Author
 
